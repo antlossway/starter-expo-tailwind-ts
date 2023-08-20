@@ -1,4 +1,4 @@
-# Expo Router Example
+# Starter kit for expo router with typescript and tailwindcss
 
 ## installation
 
