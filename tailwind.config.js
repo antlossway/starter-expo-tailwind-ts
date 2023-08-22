@@ -3,7 +3,7 @@ const nativewind = require("nativewind/tailwind/css");
 
 module.exports = {
   content: [
-    "./app/**/*.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}",
     "./<custom directory>/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {

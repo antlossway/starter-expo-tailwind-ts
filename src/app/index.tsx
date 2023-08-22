@@ -1,7 +1,7 @@
 import { View, Text, Pressable } from "react-native";
 import React from "react";
+import "../../global.css";
 
-import "../global.css";
 import { Link, useRouter } from "expo-router";
 
 const LoginPage = () => {

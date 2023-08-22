@@ -5,9 +5,19 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      [
+        "expo-router",
+        {
+          "origin": "https://acme.com",
+          "asyncRoutes": "development"
+        }
+      ]
     ],
     "name": "expo-router-tailwind-ts",
-    "slug": "expo-router-tailwind-ts"
+    "slug": "expo-router-tailwind-ts",
+
+    "experiments": {
+      "tsconfigPath": true
+    }
   }
 }

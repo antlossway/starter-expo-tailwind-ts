@@ -1,7 +1,7 @@
 import { View, Text, Button } from "react-native";
 import React from "react";
 import { Stack, useRouter } from "expo-router";
-import "../global.css";
+import "../../global.css";
 
 const data = [
   {
